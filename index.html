@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <main>
+        <div class="container">
+          <div class="content">
+            <h1 class="main__header-title">
+              Что может JavaScript в браузере?
+            </h1>
+            <div class="content-text">
+              Современный <a href="https://learn.javascript.ru/" target="_blank">JavaScript</a> – это «безопасный» язык программирования. Он не предоставляет низкоуровневый доступ к памяти или процессору, потому что изначально был создан для браузеров, не требующих этого.
+              Возможности JavaScript сильно зависят от окружения, в котором он работает. Например, <a href="https://nodejs.org/ru/" target="_blank">Node.JS</a> поддерживает функции чтения/записи произвольных файлов, выполнения сетевых запросов и т.д.
+              <br>
+              <br>
+              В браузере для JavaScript доступно всё, что связано с манипулированием веб-страницами, взаимодействием с пользователем и веб-сервером.
+              <br>
+              <br>
+              <strong>Например, в браузере JavaScript может:</strong>
+              <ul class="list">
+                <li>
+                  <span>Добавлять новый HTML-код на страницу, изменять существующее содержимое, модифицировать стили.</span>
+                </li>
+                <li>
+                  <span>Реагировать на действия пользователя, щелчки мыши, перемещения указателя, нажатия клавиш.</span>
+                </li>
+                <li>
+                  <span>Отправлять сетевые запросы на удалённые сервера, скачивать и загружать файлы (технологии AJAX и COMET).</span>
+                </li>
+                <li>
+                  <span>Получать и устанавливать куки, задавать вопросы посетителю, показывать сообщения.</span>
+                </li>
+                <li>
+                  <span>Запоминать данные на стороне клиента («local storage»).</span>
+                </li>
+              </ul>
+            </div>
+            <div class="box-evaluations">
+              <div class="evaluations-title">
+                Оцените материал задания:
+              </div>
+              <div class="marks-evaluations">
+                <div class="mark-item">
+                  1
+                </div>
+                <div class="mark-item">
+                  2
+                </div>
+                <div class="mark-item">
+                  3
+                </div>
+                <div class="mark-item">
+                  4
+                </div>
+                <div class="mark-item">
+                  5
+                </div>
+              </div>
+          </div>
+          <div class="title-comment">Комментарии</div>
+          <div class="content-comments" id="comments">
+          </div>
+        </div>
+        <div class="popup-back">
+          <div class="popup-window">
+            <div class="popup-close">
+              <img src="./image/close.png" alt="">
+            </div>
+            <div class="wrap-popup">
+              <div class="popup-field">
+                <span class="name-field">Имя пользователя:</span>
+                <input id="feedback_name" type="text" name="name" class="popup-input" value="">
+              </div>
+              <div class="popup-field">
+                <span class="name-field">Ваш комментарий(предложение):</span>
+                <textarea id="feedback_comment" placeholder="" required=""></textarea>
+              </div>
+              <a href="#" class="button" id="btn">Отправить</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </body>
+    <script type="text/javascript" src="./js/script.js"></script>
+</html>
